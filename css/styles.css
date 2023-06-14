@@ -175,32 +175,23 @@ nav a:focus {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 14px;
+  align-items: center;
 }
 
 .column {
-  -ms-flex: 25%;
-  flex: 25%;
+  -ms-flex: 100%;
+  flex: 100%;
   max-width: 25%;
   padding: 0 6px;
+  align-items: center;
+  justify-content: center;
+
 }
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-@media (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-@media (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+  align-items: center;
 }
 
 /* Team Section */
