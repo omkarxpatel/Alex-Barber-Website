@@ -292,6 +292,9 @@ nav a:focus {
   font-size: 3.2rem;
   color: #6B4210;
 }
+.flex-item-right h2 {
+  color: #6B4210;
+}
 .about-content p {
   color: #9F6218;
 }
@@ -385,4 +388,14 @@ footer h3 > a {
   text-decoration: none;
   font-weight: 500;
   margin: 0 auto;
+}
+
+.mobile-only {
+  display: none; /* Hide the line break by default */
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-only {
+    display: inline; /* Display the line break for mobile devices */
+  }
 }
