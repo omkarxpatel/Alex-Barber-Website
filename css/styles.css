@@ -312,7 +312,7 @@ nav a:focus {
   padding: 10px;
   flex: 50%;
 }
-.flex-item-left h4 {
+.flex-item-left h4, .flex-item-left h5 {
   font-weight: 700;
   color: #9F6218;
 }
