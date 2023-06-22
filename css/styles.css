@@ -7,13 +7,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Monaco", serif;
   background-color: #f6f6f6;
   height: 100vh;
 }
 .site-title h1 {
   font-weight: 400;
-  font-family: "Lora", sans-serif;
+  font-family: "Copperplate", serif;
   color: #6B390E;
   font-size: 2rem;
   margin: 0;
@@ -104,13 +104,13 @@ nav a:focus {
 .landing-text h3 {
   font-weight: 700;
   color: white;
-  font-family: "Lora", sans-serif;
+  font-family: "Copperplate", sans-serif;
 }
 .landing-text h1 {
   font-size: 450%;
   font-weight: 700;
   color: white;
-  font-family: "Lora", sans-serif;
+  font-family: "Copperplate", sans-serif;
   padding-bottom: 0;
   margin: 0 0;
 }
@@ -248,7 +248,7 @@ nav a:focus {
 }
 .team .column h3 {
   font-weight: 600;
-  font-family: "Lora", sans-serif;
+  font-family: "Copperplate", sans-serif;
   color: #9F6218;
   text-align: center;
   margin-bottom: 3px;
